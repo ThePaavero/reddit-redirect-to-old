@@ -1,0 +1,27 @@
+{
+  "name": "Reddit -> Old",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Automatically redirect to old.reddit.com if the new version is loaded",
+  "homepage_url": "http://example.com",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "default_locale": "en",
+  "permissions": [],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.reddit.com/*"
+      ],
+      "js": [
+        "src/inject/inject.js"
+      ],
+      "css": [
+        "src/inject/inject.css"
+      ]
+    }
+  ]
+}
