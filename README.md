@@ -1,2 +1,2 @@
-# Reddit User Stalk (Chrome extension)
-Adds a small button next to a user link. Click the link to see what subreddits the user is active in.
+# reddit-redirect-to-old
+Reddit's new front end sucks, this extension will automatically redirect you to the old.reddit.com domain.
