@@ -2,7 +2,7 @@ const App = () => {
 
   const currentUrl = window.location.href
 
-  notOnShittyNewVersion = () => {
+  const notOnShittyNewVersion = () => {
     return currentUrl.includes('old.') || !document.body.innerText.includes('You can always')
   }
 
