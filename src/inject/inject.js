@@ -3,7 +3,8 @@ const App = () => {
   const currentUrl = window.location.href
 
   const notOnShittyNewVersion = () => {
-    return currentUrl.includes('old.') || !document.body.innerText.includes('You can always')
+    // return currentUrl.includes('old.') || !document.body.innerText.includes('You can always')
+    return currentUrl.includes('old.') // Seems they dropped the "you can ALWAYS" element.
   }
 
   const init = () => {
